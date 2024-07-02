@@ -56,9 +56,6 @@ moviListIds.appendChild(liElem)
 init();
 
 
-
-
- Other work 
 document.querySelector('#inputValue').addEventListener('change', (e)=>{
 e.preventDefault();
   const inptTexts = e.target.value;
