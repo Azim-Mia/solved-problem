@@ -1,4 +1,4 @@
-import {getmovieReviewData} from './dataStore.js';
+1import {getmovieReviewData} from './dataStore.js';
 const movieData=getmovieReviewData()
  function init(){
   printtStatis(movieData)
@@ -8,8 +8,7 @@ const movieData=getmovieReviewData()
 function printtStatis(data){
 const flatMoviesReviews=data.flat();
 /* All movie counter length */
-const totalMovies = data.length;
-const totalReviews = flatMoviesReviews.length;
+1q1`qconst totalReviews = flatMoviesReviews.length;
 const totalRating= flatMoviesReviews.reduce((acc,item)=>{
   return acc + item.rating;
 },0);
@@ -24,8 +23,7 @@ addState(tReviewElement,totalReviews);
 function addState(elem,value){
   const span = document.createElement('span');
   span.innerHTML=value;
-  elem.appendChild(span);
-}
+1}
 /*total Status print end*/
 function printMovilist(data){
 const moviListIds=document.querySelector('#moviListId UL');
